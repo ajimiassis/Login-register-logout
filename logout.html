@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout Page</title>
+ 
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color:white;
+    }
+    .logout-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color:whitesmoke;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow:black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logout-container">
+    <h2 class="text-center mb-4">Are you sure you want to log out?</h2>
+    <div class="text-center">
+      <button class="btn btn-primary mr-2" onclick="logout()">Logout</button>
+      <a href="#" class="btn btn-secondary" onclick="cancelLogout()">Cancel</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
